@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta name="author" content="Purpose Group">
+    <meta name="description" content="Purpose Group">
+    <meta name="keywords" content="Purpose Group">
+    <title>Purpose Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="flickity/flickity.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="textanim/animate.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="textanim/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class='logo'><a href="index.html"><img src="images/purpose-logo.png" alt="Purpose Group" title="Purpose Group"/></a></li>
+            <li class='active'><a href="index.html">HOME</a></li>
+            <li><a href="#">LOCATION</a></li>
+            <li><a href="#">HOW IT WORKS</a></li>
+            <li><a href="#">LANDLORDS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+
+        <div class="flickity-gallery">
+
+            <div class="gallery-cell-100">
+                    <img src="images/index_slider/index_slider_001.jpg"
+                    alt="Location_001" title="Location_001" />
+            </div>
+
+            <div class="gallery-cell-100">
+                    <img src="images/index_slider/index_slider_002.jpg"
+                    alt="Location_002" title="Location_002" />
+            </div>
+
+            <div class="gallery-cell-100">
+                    <img src="images/index_slider/index_slider_003.jpg"
+                    alt="Location_003" title="Location_003" />
+            </div>
+
+            <div class="gallery-cell-100">
+                    <img src="images/index_slider/index_slider_004.jpg"
+                    alt="Location_004" title="Location_004" />
+            </div>
+
+        </div>
+
+        <form class="searchbar">
+            <input type="text" placeholder="Search area or postcode.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+
+        <div class="GoogleMap">
+            <img src="images/index-images/index-googleMap.png"
+                alt="Location-GoogleMap" title="Location-GoogleMap" />
+            <img src="images/index-images/index-searchResult.png"
+                alt="Location-SearchResult" title="Location-SearchResult" />
+            <img src="images/index-images/index-building-carousel.png"
+                alt="Location-Building-Carousel" title="Location-Building-Carousel" />
+            <img src="images/index-images/index-floorPlan.png"
+                alt="Location-FloorPlan" title="Location-FloorPlan" />
+            <img src="images/index-images/index-footer.png"
+                alt="Footer" title="Footer" />
+        </div>
+
+    </div>
+
+    
+
+    <footer>
+
+        <ul>
+            <li>© Purpose Group 2019</li>
+
+            <!-- FACEBOOK logo
+    
+                <li><a href="#"><img src="images/facebook_logo.png"/></a></li>
+    
+            FACEBOOK logo -->
+
+        </ul>
+
+    </footer>
+
+
+
+    <!-- CALL IN THE SCRIPTS START-->
+
+    <script src="jquery-3.1.0.min.js"></script>
+    <script src="textanim/jquery.fittext.js"></script>
+    <script src="textanim/jquery.lettering.js"></script>
+    <script src="textanim/jquery.textillate.js"></script>
+    <script src="flickity/flickity.pkgd.js"></script>
+
+    <!-- CALL IN THE SCRIPTS END-->
+
+    <!-- SCRIPTS START -->
+
+    <script>
+        $('.tlt').textillate({ in: {
+                effect: 'fadeInLeft'
+            },
+            out: {
+                effect: 'fadeOut'
+            },
+            minDisplayTime: 2000,
+            loop: false,
+        });
+
+        var $carousel = $('.flickity-gallery').flickity({
+            // options
+            autoPlay: 6000,
+            cellAlign: 'center',
+            contain: true,
+            freeScroll: false,
+            wrapAround: true,
+            accessibility: true,
+            draggable: true,
+            dragThreshold: 3,
+            friction: 0.2,
+            groupCells: false,
+            percentPosition: true,
+            pageDots: false,
+            watchCSS: true,
+            selectedAttraction: 0.2,
+            friction: 0.8,
+        });
+
+        $carousel.on('select.flickity', function () {
+            $('.tlt').hide();
+        });
+
+        $carousel.on('settle.flickity', function () {
+            $('.tlt').show();
+            $('.tlt').textillate('in');
+        });
+    </script>
+
+    <!-- SCRIPTS END -->
+
+</body>
+
+</html>

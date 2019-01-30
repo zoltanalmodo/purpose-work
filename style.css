@@ -1,0 +1,863 @@
+/* ==================================================================================
+			GENERAL SETTINGS (START)
+================================================================================== */
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'Akkurat-Mono';
+	src:
+		url('fonts/Akkurat-Mono.eot') format('eot'),
+		url('fonts/Akkurat-Mono.svg') format('svg'),
+		url('fonts/Akkurat-Mono.ttf') format('ttf'),
+		url('fonts/Akkurat-Mono.woff') format('woff'),
+		url('fonts/Akkurat-Mono.woff2') format('woff2');
+}
+
+body {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	max-width: 100%;
+	background: #fff;
+	text-decoration: none;
+}
+
+#about_body {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	max-width: 100%;
+	background: #fff;
+	text-decoration: none;
+	overflow: scroll;
+}
+
+img {
+	text-align: left;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+header {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background: #ccc5bf;
+}
+
+
+/* ==================================================================================
+			GENERAL SETTINGS (END)
+================================================================================== */
+
+/* ==================================================================================
+			TYPE SETTINGS (START)
+================================================================================== */
+h1 {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	text-align: left;
+	font-size: 27.75px;
+	letter-spacing: 3px;
+	color: #000;
+	font-weight: normal;
+	text-decoration: none;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 29px;
+	padding-left: 25%;
+}
+
+h2 {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	text-align: left;
+	font-size: 27.75px;
+	letter-spacing: 3px;
+	color: #000;
+	font-weight: normal;
+	text-decoration: none;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 29px;
+	padding-left: 25%;
+}
+
+h3 {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	position: absolute;
+	top: 35%;
+	left: 4.3%;
+	width: 95.7%;
+	text-align: left;
+	font-size: 16px;
+	letter-spacing: 3.5px;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h4 {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	position: absolute;
+	top: 40%;
+	left: 4%;
+	width: 95.7%;
+	text-align: left;
+	font-size: 60px;
+	letter-spacing: 12px;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h5 {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	position: absolute;
+	top: 57%;
+	left: 4.3%;
+	width: 95.7%;
+	text-align: left;
+	font-size: 18.5px;
+	letter-spacing: 3.3px;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h6 {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	text-align: left;
+	font-size: 30px;
+	letter-spacing: 3.3px;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#h4_2 {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	position: absolute;
+	top: 40%;
+	left: 8%;
+	width: 92%;
+	text-align: left;
+	font-size: 60px;
+	letter-spacing: 12px;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#h6_2 {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	position: absolute;
+	top: 40%;
+	left: 8%;
+	width: 92%;
+	text-align: left;
+	font-size: 27px;
+	letter-spacing: 3.3px;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#about {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	text-align: left;
+	color: #000;
+	font-size: 15px;
+	padding-top: 30px;
+	padding-right: 25%;
+	padding-bottom: 0px;
+	padding-left: 25%;
+	line-height: 140%;
+	letter-spacing: 1px;
+	font-weight: lighter;
+}
+
+#contact {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #000;
+	text-align: left;
+	padding-top: 30px;
+	padding-right: 25%;
+	padding-bottom: 0px;
+	padding-left: 25%;
+	line-height: 140%;
+	font-weight: lighter;
+}
+
+/* ==================================================================================
+			TYPE SETTINGS (END)
+================================================================================== */
+
+/* ==================================================================================
+			NAVIGATION (START)
+================================================================================== */
+nav {
+	width: 100%;
+	height: 52px;
+	background: #fff;
+}
+
+nav ul {
+	height: 52px;
+	list-style-type: none;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	background-color: #fff;
+}
+
+nav ul li {
+	height: 52px;
+	float: left;
+	padding-top: 18px;
+	padding-right: 2%;
+	padding-bottom: 20px;
+	padding-left: 2%;
+	text-decoration: none;
+}
+
+nav ul li.logo {
+	height: 52px;
+	float: left;
+	padding-top: 0px;
+	padding-right: 4%;
+	padding-bottom: 0px;
+	padding-left: 4%;
+	text-decoration: none;
+}
+
+nav ul li.logo:hover {
+	background-color: #fff;
+}
+
+nav ul li.active {
+	float: left;
+	height: 52px;
+	background-color: #ffff00;
+	padding-top: 18px;
+	padding-right: 2%;
+	padding-bottom: 18px;
+	padding-left: 2%;
+	text-decoration: none;
+}
+
+nav ul li:hover {
+	color: #fff;
+	background-color: #c7c7c7;
+	text-decoration: none;
+}
+
+nav ul li a {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	display: block;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 6px;
+	font-size: 14.5px;
+	padding-bottom: 0px;
+}
+
+nav ul li.active a {
+	font-family: 'Akkurat-Mono', Fallback, sans-serif;
+	text-decoration: none;
+	letter-spacing: 6px;
+	font-size: 14.5px;
+	color: #000;
+	text-align: center;
+	padding-bottom: 0px;
+}
+
+nav ul li a:hover {
+	color: #fff;
+	background-color: #c7c7c7;
+	text-decoration: none;
+	padding-bottom: 0px;
+}
+
+/* ==================================================================================
+			NAVIGATION (END)
+================================================================================== */
+.banner {
+	position: relative;
+	max-width: 100%;
+	height: 100%;
+	margin-bottom: 69px;
+}
+
+.banner img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+/* ==================================================================================
+			SEARCH FIELD (START)
+================================================================================== */
+
+form.searchbar {
+	position: relative;
+	width: 30%;
+	height: 52px;
+	border: 11px solid #ffff00;
+	border-radius: 0;
+	background-color: #ffff00;
+	z-index: 1;
+	top: -54px;
+}
+
+form.searchbar input[type=text] {
+	font-size: 17px;
+	border: 1px solid rgb(201, 201, 201);
+	border-right: none; /* Prevent double borders */
+	border-radius: 0;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+	margin: 0;
+	height: 30px;
+}
+
+form.searchbar button[type=submit] {
+	float: left;
+	width: 20%;
+	background: rgb(77, 77, 77);
+	color: white;
+	font-size: 17px;
+	border: 1px solid black;
+	border-radius: 0;
+	cursor: pointer;
+	height: 30px;
+}
+
+form.searchbar button:hover {
+	background: #141414;
+}
+
+/* Clear floats */
+form.searchbar::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* ==================================================================================
+			SEARCH FIELD (END)
+================================================================================== */
+
+/* ==================================================================================
+			GOOGLEMAP (START)
+================================================================================== */
+.GoogleMap img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	top: -200px;
+	z-index: 2;
+}
+
+
+/* ==================================================================================
+			GOOGLEMAP (END)
+================================================================================== */
+
+
+
+
+/* ==================================================================================
+			PROJECTS PAGE (START)
+================================================================================== */
+.projects_projects {
+	float: left;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	position: relative;
+}
+
+.floating-box-001 {
+	overflow: hidden;
+	float: left;
+	width: 50%;
+	margin: 0px;
+	position: relative;
+}
+
+.floating-box-002 {
+	overflow: hidden;
+	float: left;
+	width: 25%;
+	margin: 0px;
+	position: relative;
+}
+
+.floating-box-003 {
+	overflow: hidden;
+	float: right;
+	width: 25%;
+	margin: 0px;
+	position: relative;
+}
+
+.floating-box-004 {
+	overflow: hidden;
+	float: right;
+	width: 25%;
+	margin: 0px;
+	position: relative;
+}
+
+/* ==================================================================================
+			PROJECTS PAGE (END)
+================================================================================== */
+section {
+	width: 100%;
+}
+
+section img {
+	padding-left: 50%;
+	height: auto;
+	width: 25%;
+}
+
+section a {
+	text-decoration: none;
+	padding: 6px 12px 3px 12px;
+	background-color: #ccc5bf;
+	color: #fff;
+}
+
+section a:hover {
+	text-decoration: none;
+	background-color: #414141;
+	color: #fff;
+}
+
+/* ==================================================================================
+			FOOTER (START)
+================================================================================== */
+footer {
+	width: 100%;
+	height: 69px;
+	background: #000;
+	bottom: 0;
+	position: fixed;
+}
+
+footer ul {
+	list-style-type: none;
+	width: 96%;
+}
+
+footer ul li {
+	float: left;
+	border: none;
+	font-size: 14.5px;
+	letter-spacing: 6px;
+	color: #ccc5bf;
+	text-decoration: none;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 29px;
+	padding-left: 4%;
+}
+
+/* ==================================================================================
+			FOOTER (END)
+================================================================================== */
+
+/*===================================================================================
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXX   MEDIA QUERYES (START)   XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+===================================================================================*/
+
+@media screen and (max-width: 1000px) {
+	body {
+		font-family: 'Akkurat-Mono', Fallback, sans-serif;
+		max-width: 100%;
+		background: #fff;
+		text-decoration: none;
+		overflow: scroll;
+	}
+
+/* ==================================================================================
+	-MQ-	TYPE SETTINGS (START)
+================================================================================== */
+	h1 {
+		font-family: 'Akkurat-Mono', Fallback, sans-serif;
+		text-align: center;
+		color: #ccc5bf;
+		padding-top: 30px;
+		padding-right: 0px;
+		padding-bottom: 26px;
+		padding-left: 0px;
+		border-top: 1px solid #ccc5bf;
+	}
+
+	h2 {
+		font-family: 'Akkurat-Mono', Fallback, sans-serif;
+		text-align: center;
+		color: #ccc5bf;
+		padding-top: 30px;
+		padding-right: 0px;
+		padding-bottom: 26px;
+		padding-left: 0px;
+		border-top: 0px solid #fff;
+	}
+
+	h3 {
+		font-family: 'Akkurat-Mono', Fallback, sans-serif;
+		position: absolute;
+		top: 35%;
+		left: 4.3%;
+		width: 95.7%;
+		text-align: left;
+		font-size: 12px;
+		letter-spacing: 3px;
+		color: #000;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	h4 {
+		font-family: 'Akkurat-Mono', Fallback, sans-serif;
+		position: absolute;
+		top: 40%;
+		left: 4%;
+		width: 95.7%;
+		text-align: left;
+		font-size: 45px;
+		letter-spacing: 9px;
+		color: #000;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	h5 {
+		font-family: 'Akkurat-Mono', Fallback, sans-serif;
+		position: absolute;
+		top: 57%;
+		left: 4.3%;
+		width: 95.7%;
+		text-align: left;
+		font-size: 14px;
+		letter-spacing: 3px;
+		color: #000;
+		font-weight: bold;
+		text-decoration: none;
+	}
+
+	#contact {
+		font-family: 'Akkurat-Mono', Fallback, sans-serif;
+		font-size: 16px;
+		letter-spacing: 1px;
+		text-align: center;
+		color: #ccc5bf;
+		padding-top: 30px;
+		padding-right: 0px;
+		padding-bottom: 26px;
+		padding-left: 0px;
+		font-weight: lighter;
+	}
+
+/* ==================================================================================
+	-MQ-	TYPE SETTINGS (END)
+================================================================================== */
+}
+
+@media screen and (max-width: 768px) {
+		body {
+			font-family: 'Akkurat-Mono', Fallback, sans-serif;
+			max-width: 100%;
+			background: #fff;
+			text-decoration: none;
+			overflow: scroll;
+		}
+
+/* ==================================================================================
+	-MQ-	TYPE SETTINGS (START)
+================================================================================== */
+		h1 {
+			font-family: 'Akkurat-Mono', Fallback, sans-serif;
+			text-align: center;
+			color: #ccc5bf;
+			padding-top: 30px;
+			padding-right: 0px;
+			padding-bottom: 26px;
+			padding-left: 0px;
+			border-top: 1px solid #ccc5bf;
+		}
+
+		h2 {
+			font-family: 'Akkurat-Mono', Fallback, sans-serif;
+			text-align: center;
+			color: #ccc5bf;
+			padding-top: 30px;
+			padding-right: 0px;
+			padding-bottom: 26px;
+			padding-left: 0px;
+			border-top: 0px solid #fff;
+		}
+
+		h3 {
+			display: none;
+			font-family: 'Akkurat-Mono', Fallback, sans-serif;
+			position: absolute;
+			top: 35%;
+			left: 4.3%;
+			width: 95.7%;
+			text-align: left;
+			font-size: 16px;
+			letter-spacing: 3.5px;
+			color: #000;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		h4 {
+			font-family: 'Akkurat-Mono', Fallback, sans-serif;
+			position: absolute;
+			top: 40%;
+			left: 4%;
+			width: 95.7%;
+			text-align: left;
+			font-size: 30px;
+			letter-spacing: 6px;
+			color: #000;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		h5 {
+			display: none;
+			font-family: 'Akkurat-Mono', Fallback, sans-serif;
+			position: absolute;
+			top: 57%;
+			left: 4.3%;
+			width: 95.7%;
+			text-align: left;
+			font-size: 18.5px;
+			letter-spacing: 3.3px;
+			color: #000;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		#contact {
+			font-family: 'Akkurat-Mono', Fallback, sans-serif;
+			font-size: 16px;
+			letter-spacing: 1px;
+			text-align: center;
+			color: #ccc5bf;
+			padding-top: 30px;
+			padding-right: 0px;
+			padding-bottom: 26px;
+			padding-left: 0px;
+			font-weight: lighter;
+		}
+
+/* ==================================================================================
+	-MQ-	TYPE SETTINGS (END)
+================================================================================== */
+
+/* ==================================================================================
+	-MQ-	NAVIGATION (START)
+================================================================================== */
+		nav {
+			width: 100%;
+		}
+
+		nav ul {
+			width: 100%;
+			list-style-type: none;
+			padding-top: 0px;
+			padding-right: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+			text-align: center;
+		}
+
+		nav ul li {
+			display: block;
+			width: 100%;
+			float: left;
+			clear: right;
+			padding-top: 30px;
+			padding-right: 0px;
+			padding-bottom: 26px;
+			padding-left: 0px;
+			border-bottom: 1px solid #ccc5bf;
+			text-align: center;
+		}
+
+		nav ul li.mr_X {
+			display: block;
+			float: right;
+			padding-top: 0px;
+			padding-right: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+		}
+
+		li:last-child {
+			border-bottom: none;
+		}
+
+		nav ul li a {
+			font-family: 'Akkurat-Mono', Fallback, sans-serif;
+			display: block;
+			color: #ccc5bf;
+			font-size: 14.5px;
+			letter-spacing: 6px;
+			text-decoration: none;
+			text-align: center;
+			background: #fff;
+			margin: 0px;
+			padding-bottom: 0px;
+		}
+
+		nav ul li.active a {
+			font-family: 'Akkurat-Mono', Fallback, sans-serif;
+			color: #414141;
+			font-size: 14.5px;
+			letter-spacing: 6px;
+			text-decoration: none;
+			text-align: center;
+			background: #fff;
+			padding-bottom: 0px;
+		}
+
+/* ==================================================================================
+	-MQ-	NAVIGATION (END)
+================================================================================== */
+		.banner {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 62px
+		}
+
+/* ==================================================================================
+	-MQ-	PROJECTS PAGE (START)
+================================================================================== */
+		.projects_projects {
+			float: left;
+			margin: 0;
+			padding: 0;
+			text-align: left;
+			position: relative;
+		}
+
+		.floating-box-001 {
+			overflow: hidden;
+			float: left;
+			width: 100%;
+			margin: 0;
+			position: relative;
+		}
+
+		.floating-box-002 {
+			overflow: hidden;
+			float: left;
+			width: 50%;
+			margin: 0;
+			position: relative;
+		}
+
+		.floating-box-003 {
+			overflow: hidden;
+			float: left;
+			width: 50%;
+			margin: 0;
+			position: relative;
+		}
+
+		.floating-box-004 {
+			overflow: hidden;
+			float: right;
+			width: 50%;
+			margin: 0px;
+			position: relative;
+			margin-bottom: 62px !important;
+		}
+
+/* ==================================================================================
+	-MQ-	PROJECTS PAGE (END)
+================================================================================== */
+		section {
+			width: 100%;
+			text-align: center;
+		}
+
+		section img {
+			width: 80%;
+			padding-top: 0px;
+			padding-right: 0px;
+			padding-bottom: 0px;
+			padding-left: 0px;
+		}
+
+		section h2 {
+			font-family: 'Akkurat-Mono', Fallback, sans-serif;
+			text-align: center;
+			color: #ccc5bf;
+			padding-top: 30px;
+			padding-right: 0px;
+			padding-bottom: 26px;
+			padding-left: 0px;
+			border-top: 0px solid #fff;
+		}
+
+		section #about {
+			width: 60%;
+			font-size: 16px;
+			letter-spacing: 1px;
+			margin-left: auto;
+			margin-right: auto;
+			padding-top: 0px;
+			padding-right: 10%;
+			padding-bottom: 0px;
+			padding-left: 10%;
+			text-align: left;
+			font-weight: lighter;
+		}
+
+/* ==================================================================================
+	-MQ-	FOOTER (START)
+================================================================================== */
+		footer {
+			width: 100%;
+			height: 62;
+			background: #000;
+			position: fixed;
+			bottom: 0;
+		}
+
+		footer ul {
+			list-style: none;
+			width: 100%;
+			text-align: center;
+		}
+
+		footer ul li {
+			padding-left: 4.5%;
+			float: left;
+			clear: right;
+			padding-top: 26px;
+			padding-bottom: 22px;
+			border: none;
+			font-size: 12px;
+			letter-spacing: 5px;
+			color: #ccc5bf;
+			text-decoration: none;
+			text-align: center;
+		}
+
+/* ==================================================================================
+	-MQ-	FOOTER (END)
+================================================================================== */
+}

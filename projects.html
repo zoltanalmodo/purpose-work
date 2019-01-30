@@ -1,0 +1,145 @@
+<DOCTYPE html>
+<html lang="en-HU">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="http://www.ovariandrea.hu">
+	<meta name="description" content="Óvári Andrea Textile Designer">
+	<meta name="keywords" content="Óvári Andrea Textile Designer">
+	<title>Óvári Andrea Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="flickity/flickity.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="textanim/animate.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="textanim/style.css" type="text/css" media="screen">
+	<script src="jquery-3.1.0.min.js"></script>
+</head>
+
+<body>
+		 
+	<header>
+		<a href="index.html"><img src="images/ovari_andrea_textile_designer_logo.jpg" alt="Óvári Andrea Textile Designer Logo" title="Óvári Andrea Textile Designer Logo"/></a>
+	</header>
+		
+	<nav>
+		<ul>
+			<li class='active'><a href="projects.html">PROJECTS</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>				
+	</nav>
+	
+	<div class="banner">
+                <div class="flickity-gallery">
+                    <div class="gallery-cell-100">
+                        <div class="projects_projects">
+                            <div class="floating-box-001"><a href="project_001.html"><img src="images/projects_projects/projects_project_001.jpg" alt="Project_001" title="Project_001"/><h4 id="h4_2" class="tlt">PROJECT 001</h4></a></div>
+                            <div class="floating-box-001"><a href="project_002.html"><img src="images/projects_projects/projects_project_002.jpg" alt="Project_002" title="Project_002"/><h4 id="h4_2" class="tlt">PROJECT 002</h4></a></div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-cell-100">
+                        <div class="projects_projects">
+                            <div class="floating-box-001"><a href="project_003.html"><img src="images/projects_projects/projects_project_003.jpg" alt="Project_003" title="Project_003"/><h4 id="h4_2" class="tlt">PROJECT 003</h4></a></div>
+                            <div class="floating-box-001"><a href="project_004.html"><img src="images/projects_projects/projects_project_004.jpg" alt="Project_004" title="Project_004"/><h4 id="h4_2" class="tlt">PROJECT 004</h4></a></div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-cell-100">
+                        <div class="projects_projects">
+                            <div class="floating-box-001"><a href="project_005.html"><img src="images/projects_projects/projects_project_005.jpg" alt="Project_005" title="Project_005"/><h4 id="h4_2" class="tlt">PROJECT 005</h4></a></div>
+                            <div class="floating-box-001"><a href="project_006.html"><img src="images/projects_projects/projects_project_006.jpg" alt="Project_006" title="Project_006"/><h4 id="h4_2" class="tlt">PROJECT 006</h4></a></div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-cell-100">
+                        <div class="projects_projects">
+                            <div class="floating-box-001"><a href="project_007.html"><img src="images/projects_projects/projects_project_007.jpg" alt="Project_007" title="Project_007"/><h4 id="h4_2" class="tlt">PROJECT 007</h4></a></div>
+                            <div class="floating-box-001"><a href="project_008.html"><img src="images/projects_projects/projects_project_008.jpg" alt="Project_008" title="Project_008"/><h4 id="h4_2" class="tlt">PROJECT 008</h4></a></div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-cell-100">
+                        <div class="projects_projects">
+                            <div class="floating-box-001"><a href="project_009.html"><img src="images/projects_projects/projects_project_009.jpg" alt="Project_009" title="Project_009"/><h4 id="h4_2" class="tlt">PROJECT 009</h4></a></div>
+                            <div class="floating-box-001"><a href="project_010.html"><img src="images/projects_projects/projects_project_010.jpg" alt="Project_010" title="Project_010"/><h4 id="h4_2" class="tlt">PROJECT 010</h4></a></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+	
+	<footer>               
+		<ul>
+    	<li>© 2016 ÓVÁRI ANDREA</li>
+    	
+<!-- INSTAGRAM logo
+	
+		<li><a href="INSTAGRAM"><img src="images/facebook_logo.png"/></a></li>
+	
+INSTAGRAM logo -->
+
+		</ul>	
+	</footer>
+
+            <!-- CALL IN THE SCRIPTS START-->
+
+            <script src="jquery-3.1.0.min.js"></script>
+            <script src="textanim/jquery.fittext.js"></script>
+            <script src="textanim/jquery.lettering.js"></script>
+            <script src="textanim/jquery.textillate.js"></script>
+            <script src="flickity/flickity.pkgd.js"></script>
+
+            <!-- CALL IN THE SCRIPTS END-->
+
+            <!-- SCRIPTS START -->
+
+            <script>
+            
+                $('.tlt').textillate({
+                    in: {effect: 'fadeInLeft'},
+                    out: {effect: 'fadeOut'},
+                    minDisplayTime: 2000,
+                    loop: false,
+                });
+
+                    
+
+                var $carousel = $('.flickity-gallery').flickity({
+                    // options
+                    autoPlay: 6000,
+                    cellAlign: 'center',
+                    contain: true,
+                    freeScroll: false,
+                    wrapAround: true,
+                    accessibility: true,
+                    draggable: true,
+                    dragThreshold: 3,
+                    friction: 0.2,
+                    groupCells: false,
+                    percentPosition: true,
+                    pageDots: false,
+                    watchCSS: true,                    
+                    selectedAttraction: 0.2,
+                    friction: 0.8,
+                });
+                
+                $carousel.on( 'select.flickity', function() {
+                    $('.tlt').hide();
+                });
+                
+                $carousel.on('settle.flickity', function () {
+                    $('.tlt').show();
+                    $('.tlt').textillate('in');
+                });
+
+            </script>
+
+            <!-- SCRIPTS END -->
+		
+</body>
+
+</html>		
+		
+			
